@@ -1,9 +1,9 @@
-## Bachelor thesis - "Usage example of 2-axis positioner during the welding process"
+## Bachelor's thesis - "Usage example of 2-axis positioner during the welding process"
 
-Project demonstrates how the welding process can be robotized in the industry using *FANUC ArcMate 100iC robot*. The most important parts that have been done are mentioned below.
+Project demonstrates how the welding process can be robotized in the industry using *FANUC ArcMate 100iC* robot. The most important parts that have been done are mentioned below.
 
 ### Designing and printing the welding torch
-Project is focused on calibrating and programming FANUC robot and positioner rather than welding process itself. That is why a welding torch was designed, which is essential tool in all calibration stages. It was printed in four independent parts, then built up from them to create complete welding torch.<br>
+Project is focused on calibrating and programming robotic arm and positioner rather than welding process itself. That is why a welding torch was designed, which is essential tool in all calibration stages. It was printed in four independent parts, then built up from them to create complete welding torch.<br>
 <img src="welding-torch/welding_torch.jpg" alt="welding torch" width="50%"><br>
 More images and 3D visualizations are available in `welding-torch` directiory.
 ### Calibrating of the workstation components
