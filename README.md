@@ -7,7 +7,8 @@ Project is focused on callibrating and programming FANUC robot and positioner ra
 <img src="welding-torch/welding_torch.jpg" alt="welding torch" width="75%">
 ### Calibration of the workstation components
 1. Tool coordinate system (tool calibration)
-2. Coordinated motion
+   <img src="tool-calibration/point_1.jpg" alt="welding torch" width="33%"> <img src="tool-calibration/point_2.jpg" alt="welding torch" width="33%"> <img src="tool-calibration/point_3.jpg" alt="welding torch" width="33%">
+3. Coordinated motion
 
 ### Writing codes using FANUC TP language
 1. tp_welding
