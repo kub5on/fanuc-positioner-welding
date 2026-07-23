@@ -18,7 +18,8 @@ More images and 3D visualizations are available in `welding-torch` directiory.
    <img src="coord-calibration/point_2.jpg" alt="coord motion" width="25%">&nbsp;&nbsp;
 ### Writing programs using FANUC TP language
 1. tp_welding
-<div style="width: 50%; max-height: 250px; overflow-y: auto;">
+  <div style="max-height: 250px; overflow-y: auto;">
+
 ```tp
  1:J PR[1] 100% FINE ;
  2:J PR[2] 40% FINE
@@ -35,6 +36,7 @@ More images and 3D visualizations are available in `welding-torch` directiory.
   :  Arc End[1] ;
  8:J PR[1] 100% FINE ;
 ```
+</div>
 </div>
 2. tp_weave
 
