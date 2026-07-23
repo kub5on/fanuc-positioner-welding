@@ -6,7 +6,7 @@ Project demonstrates how the welding process can be robotized in the industry us
 Project is focused on calibrating and programming robotic arm and positioner rather than welding process itself. That is why a welding torch was designed, which is essential tool in all calibration stages. It was printed in four independent parts, then built up from them to create complete welding torch.<br>
 <img src="welding-torch/welding_torch.jpg" alt="welding torch" width="50%"><br>
 More images and 3D visualizations are available in `welding-torch` directiory.
-### Calibrating of the workstation components
+### Calibrating components of the workstation
 1. Tool coordinate system (tool calibration)<br>
 
    <img src="tool-calibration/point_1.jpg" alt="welding torch" width="25%">&nbsp;&nbsp;
@@ -16,7 +16,7 @@ More images and 3D visualizations are available in `welding-torch` directiory.
 
    <img src="coord-calibration/point_1.jpg" alt="coord motion" width="25%">&nbsp;&nbsp;
    <img src="coord-calibration/point_2.jpg" alt="coord motion" width="25%">&nbsp;&nbsp;
-### Writing codes using FANUC TP language
+### Writing programs using FANUC TP language
 1. tp_welding
    <div style="max-height: 250px; overflow-y: auto;">
 
@@ -34,7 +34,7 @@ More images and 3D visualizations are available in `welding-torch` directiory.
   :  P[9] WELD_SPEED FINE COORD ;
  7:L P[10] 500mm/sec FINE
   :  Arc End[1] ;
- 8:J PR[1] 100% FINE ;```
+ 8:J PR[1] 100% FINE ;
 2. tp_weave
 
 <details>
