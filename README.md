@@ -20,7 +20,6 @@ More images and 3D visualizations are available in `welding-torch` directiory.
 1. tp_welding
 <pre style="width: 50%; max-height: 250px; overflow-y: auto;">
 
-```tp
  1:J PR[1] 100% FINE ;
  2:J PR[2] 40% FINE
   :  Arc Start[1] ;
@@ -35,7 +34,6 @@ More images and 3D visualizations are available in `welding-torch` directiory.
  7:L P[10] 500mm/sec FINE
   :  Arc End[1] ;
  8:J PR[1] 100% FINE ;
-```
 </pre>
 2. tp_weave
 
