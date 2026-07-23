@@ -18,31 +18,23 @@ More images and 3D visualizations are available in `welding-torch` directiory.
    <img src="coord-calibration/point_2.jpg" alt="coord motion" width="25%">&nbsp;&nbsp;
 ### Writing codes using FANUC TP language
 1. tp_welding
-   `1:J PR[1] 100% FINE    ;
-   2:  Weave L[1] ;
-   3:J PR[2] 40% FINE
-    :  Arc Start[1]    ;
-   4:L P[11] WELD_SPEED FINE COORD    ;
-   5:  Weave L[2] ;
-   6:C P[3]    
-    :  P[2] WELD_SPEED FINE COORD    ;
-   7:L P[12] WELD_SPEED FINE COORD    ;
-   8:  Weave L[1] ;
-   9:C P[4]    
-    :  P[5] WELD_SPEED FINE COORD    ;
-  10:L P[15] 2000mm/sec FINE    ;
-  11:L P[13] WELD_SPEED FINE COORD    ;
-  12:  Weave L[2] ;
-  13:C P[6]    
-    :  P[7] WELD_SPEED FINE COORD    ;
-  14:L P[14] WELD_SPEED FINE COORD    ;
-  15:  Weave L[1] ;
-  16:C P[8]    
-    :  P[9] WELD_SPEED FINE COORD    ;
-  17:  Weave End ;
-  18:L P[10] 500mm/sec FINE
-    :  Arc End[1]    ;
-  19:J PR[1] 100% FINE    ;`
+   <div style="max-height: 250px; overflow-y: auto;">
+
+```tp
+ 1:J PR[1] 100% FINE ;
+ 2:J PR[2] 40% FINE
+  :  Arc Start[1] ;
+ 3:C P[3] 
+  :  P[2] WELD_SPEED FINE COORD ;
+ 4:C P[4] 
+  :  P[5] WELD_SPEED FINE COORD ;
+ 5:C P[6] 
+  :  P[7] WELD_SPEED FINE COORD ;
+ 6:C P[8] 
+  :  P[9] WELD_SPEED FINE COORD ;
+ 7:L P[10] 500mm/sec FINE
+  :  Arc End[1] ;
+ 8:J PR[1] 100% FINE ;```
 2. tp_weave
 
 <details>
