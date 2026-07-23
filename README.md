@@ -42,7 +42,7 @@ More images and 3D visualizations are available in `welding-torch` directiory.
 </details>
 
 <details>
-<summary><b>Program with *weave* function </b></summary>
+<summary><b>Program with <i>weave</i> function </b></summary>
 
 <div style="max-height: 250px; overflow-y: auto;">
 
@@ -76,4 +76,5 @@ More images and 3D visualizations are available in `welding-torch` directiory.
 </div>
 </details>
 
+### GIF showing the program in action
 <img width="144" height="288" alt="start" src="https://github.com/user-attachments/assets/af170caf-4a23-48e5-8dd6-5698152acd2a" />
