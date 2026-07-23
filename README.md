@@ -1,3 +1,4 @@
+<img width="576" height="1024" alt="start" src="https://github.com/user-attachments/assets/af170caf-4a23-48e5-8dd6-5698152acd2a" />
 ## Bachelor's thesis - "Usage example of 2-axis positioner during the welding process"
 
 Project demonstrates how the welding process can be robotized in the industry using *FANUC ArcMate 100iC* robot. The most important parts that have been done are mentioned below.
