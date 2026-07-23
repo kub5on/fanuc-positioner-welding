@@ -1,4 +1,4 @@
-## Bachelor's thesis - "Usage example of 2-axis positioner during the welding process"
+"Usage example of 2-axis positioner during the welding process"
 
 Project demonstrates how the welding process can be robotized in the industry using *FANUC ArcMate 100iC* robot. The most important parts that have been done are mentioned below.
 
@@ -19,8 +19,10 @@ More images and 3D visualizations are available in `welding-torch` directiory.
 ### Writing programs using FANUC TP language
 1. tp_welding
 
-<div style="width: 50%; max-height: 250px; overflow: auto;">
-<pre style="margin: 0;"><code> 1:J PR[1] 100% FINE ;
+<div style="max-height: 250px; overflow-y: auto;">
+
+```tp
+ 1:J PR[1] 100% FINE ;
  2:J PR[2] 40% FINE
   :  Arc Start[1] ;
  3:C P[3] 
@@ -33,12 +35,12 @@ More images and 3D visualizations are available in `welding-torch` directiory.
   :  P[9] WELD_SPEED FINE COORD ;
  7:L P[10] 500mm/sec FINE
   :  Arc End[1] ;
- 8:J PR[1] 100% FINE ;</code></pre>
+ 8:J PR[1] 100% FINE ;
+```
 </div>
 2. tp_weave
 
-<details>
-<summary><b>Rozwiń program (TP)</b></summary>
+<div style="max-height: 250px; overflow-y: auto;">
 
 ```tp
  1:J PR[1] 100% FINE ;
@@ -66,5 +68,7 @@ More images and 3D visualizations are available in `welding-torch` directiory.
 18:L P[10] 500mm/sec FINE
   :  Arc End[1] ;
 19:J PR[1] 100% FINE ;
+```
+</div>
 
 <img width="144" height="288" alt="start" src="https://github.com/user-attachments/assets/af170caf-4a23-48e5-8dd6-5698152acd2a" />
