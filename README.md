@@ -1,4 +1,4 @@
-### "Usage example of 2-axis positioner during the welding process"
+## "Usage example of 2-axis positioner during the welding process"
 
 Project demonstrates how the welding process can be robotized in the industry using *FANUC ArcMate 100iC* robot. The most important parts that have been done are mentioned below.
 
