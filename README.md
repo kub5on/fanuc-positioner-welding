@@ -17,7 +17,7 @@ More images and 3D visualizations are available in `welding-torch` directiory.
    <img src="coord-calibration/point_1.jpg" alt="coord motion" width="25%">&nbsp;&nbsp;
    <img src="coord-calibration/point_2.jpg" alt="coord motion" width="25%">&nbsp;&nbsp;
 ### Writing programs using FANUC TP language
-
+Project consists of two programs, the first one is the main program which demonstrates the welding process itself. The second is based on the main program, but it is expanded with one important function (*weave function*) which strengthens the weld.
 <details>
 <summary><b>Main program</b></summary>
 <div style="max-height: 250px; overflow-y: auto;">
@@ -76,5 +76,5 @@ More images and 3D visualizations are available in `welding-torch` directiory.
 </div>
 </details>
 
-### GIF showing the program in action
+### GIF
 <img width="144" height="288" alt="start" src="https://github.com/user-attachments/assets/af170caf-4a23-48e5-8dd6-5698152acd2a" />
